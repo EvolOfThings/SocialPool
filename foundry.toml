@@ -4,7 +4,7 @@ out = "out"
 libs = ["lib"]
 ffi = true
 via_ir = true
-fs_permissions = [{ access = "read-write", path = ".forge-snapshots/"}]
+fs_permissions = [{ access = "read-write", path = ".forge-snapshots/" }, { access = "read-write", path = "out/" }]
 solc_version = "0.8.26"
 evm_version = "cancun"
 
